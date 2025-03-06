@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "VFRZ0v6il3Y74NBV8AmvQwBOFw9F9mtLv+qANlfn2Vw=",
+  "Source": "WebAPI",
+  "BasePath": "_content/WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPI\\wwwroot",
+      "Source": "WebAPI",
+      "ContentRoot": "C:\\Users\\navya\\source\\repos\\Dependency injection\\Dependy\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\navya\\source\\repos\\Dependency injection\\Dependy\\WebAPI\\wwwroot\\Images\\img.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\navya\\source\\repos\\Dependency injection\\Dependy\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Images/img#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0t6tde5a9x",
+      "Integrity": "tLwNRikVIRcf6GgC8tCYVtNDjhe/htYdOHnJ/CS/RLE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\img.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Images/img.0t6tde5a9x.jpg",
+      "AssetFile": "C:\\Users\\navya\\source\\repos\\Dependency injection\\Dependy\\WebAPI\\wwwroot\\Images\\img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLwNRikVIRcf6GgC8tCYVtNDjhe/htYdOHnJ/CS/RLE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 06:49:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0t6tde5a9x"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/img.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLwNRikVIRcf6GgC8tCYVtNDjhe/htYdOHnJ/CS/RLE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/img.jpg",
+      "AssetFile": "C:\\Users\\navya\\source\\repos\\Dependency injection\\Dependy\\WebAPI\\wwwroot\\Images\\img.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tLwNRikVIRcf6GgC8tCYVtNDjhe/htYdOHnJ/CS/RLE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 06:49:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tLwNRikVIRcf6GgC8tCYVtNDjhe/htYdOHnJ/CS/RLE="
+        }
+      ]
+    }
+  ]
+}

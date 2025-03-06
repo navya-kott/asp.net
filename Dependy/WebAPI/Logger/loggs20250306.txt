@@ -1,0 +1,149 @@
+2025-03-06 11:44:36.243 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-06 11:44:36.299 +05:30 [DBG] Hosting starting
+2025-03-06 11:44:36.310 +05:30 [DBG] Middleware loaded
+2025-03-06 11:44:36.312 +05:30 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16497 B).
+2025-03-06 11:44:36.313 +05:30 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-03-06 11:44:36.342 +05:30 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-03-06 11:44:36.378 +05:30 [INF] Now listening on: https://localhost:7112
+2025-03-06 11:44:36.380 +05:30 [INF] Now listening on: http://localhost:5193
+2025-03-06 11:44:36.380 +05:30 [DBG] Loaded hosting startup assembly WebAPI
+2025-03-06 11:44:36.381 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-06 11:44:36.382 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-06 11:44:36.382 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-06 11:44:36.439 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 11:44:36.439 +05:30 [INF] Hosting environment: Development
+2025-03-06 11:44:36.440 +05:30 [INF] Content root path: C:\Users\navya\source\repos\Dependency injection\Dependy\WebAPI
+2025-03-06 11:44:36.441 +05:30 [DBG] Hosting started
+2025-03-06 11:44:36.874 +05:30 [DBG] Connection id "0HNASEOLU71T1" accepted.
+2025-03-06 11:44:36.874 +05:30 [DBG] Connection id "0HNASEOLU71T0" accepted.
+2025-03-06 11:44:36.875 +05:30 [DBG] Connection id "0HNASEOLU71T1" started.
+2025-03-06 11:44:36.875 +05:30 [DBG] Connection id "0HNASEOLU71T0" started.
+2025-03-06 11:44:36.883 +05:30 [DBG] Connection id "0HNASEOLU71T0" received FIN.
+2025-03-06 11:44:36.883 +05:30 [DBG] Connection id "0HNASEOLU71T1" received FIN.
+2025-03-06 11:44:36.891 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-06 11:44:36.891 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-06 11:44:36.894 +05:30 [DBG] Connection id "0HNASEOLU71T2" accepted.
+2025-03-06 11:44:36.904 +05:30 [DBG] Connection id "0HNASEOLU71T0" stopped.
+2025-03-06 11:44:36.904 +05:30 [DBG] Connection id "0HNASEOLU71T2" started.
+2025-03-06 11:44:36.904 +05:30 [DBG] Connection id "0HNASEOLU71T1" stopped.
+2025-03-06 11:44:36.908 +05:30 [DBG] Connection id "0HNASEOLU71T0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:44:36.908 +05:30 [DBG] Connection id "0HNASEOLU71T1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 11:44:36.935 +05:30 [DBG] Connection 0HNASEOLU71T2 established using the following protocol: "Tls12"
+2025-03-06 11:44:36.949 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-03-06 11:44:36.963 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-03-06 11:44:36.964 +05:30 [VRB] Connection id "0HNASEOLU71T2" received "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-03-06 11:44:36.966 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-03-06 11:44:36.968 +05:30 [VRB] Connection id "0HNASEOLU71T2" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-03-06 11:44:36.969 +05:30 [VRB] Connection id "0HNASEOLU71T2" received "HEADERS" frame for stream ID 1 with length 500 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-03-06 11:44:36.983 +05:30 [VRB] Connection id "0HNASEOLU71T2" received "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-03-06 11:44:36.991 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/index.html - null null
+2025-03-06 11:44:37.034 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-06 11:44:37.035 +05:30 [VRB] All hosts are allowed.
+2025-03-06 11:44:37.046 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-03-06 11:44:37.048 +05:30 [DBG] Request did not match any endpoints
+2025-03-06 11:44:37.087 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-03-06 11:44:37.089 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-03-06 11:44:37.091 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "HEADERS" frame for stream ID 1 with length 66 and flags "END_HEADERS".
+2025-03-06 11:44:37.095 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 1 with length 4096 and flags "NONE".
+2025-03-06 11:44:37.099 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 1 with length 918 and flags "NONE".
+2025-03-06 11:44:37.101 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-03-06 11:44:37.101 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 1 with length 81 and flags "NONE".
+2025-03-06 11:44:37.102 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-03-06 11:44:37.105 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 1 with length 0 and flags "END_STREAM".
+2025-03-06 11:44:37.105 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/index.html - 200 null text/html;charset=utf-8 116.0896ms
+2025-03-06 11:44:37.125 +05:30 [VRB] Connection id "0HNASEOLU71T2" received "HEADERS" frame for stream ID 3 with length 74 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-03-06 11:44:37.128 +05:30 [VRB] Connection id "0HNASEOLU71T2" received "HEADERS" frame for stream ID 5 with length 57 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-03-06 11:44:37.128 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-06 11:44:37.131 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/_vs/browserLink - null null
+2025-03-06 11:44:37.134 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "HEADERS" frame for stream ID 3 with length 60 and flags "END_HEADERS".
+2025-03-06 11:44:37.136 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-03-06 11:44:37.138 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 3 with length 113 and flags "NONE".
+2025-03-06 11:44:37.141 +05:30 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-03-06 11:44:37.142 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 3 with length 0 and flags "END_STREAM".
+2025-03-06 11:44:37.142 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 13.8605ms
+2025-03-06 11:44:37.150 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "HEADERS" frame for stream ID 5 with length 149 and flags "END_HEADERS".
+2025-03-06 11:44:37.153 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 9986 and flags "NONE".
+2025-03-06 11:44:37.155 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.156 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.159 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.160 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.163 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.164 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.166 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.168 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.169 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.171 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.172 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.174 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.176 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.178 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 10240 and flags "NONE".
+2025-03-06 11:44:37.179 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 1806 and flags "NONE".
+2025-03-06 11:44:37.179 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.6636ms
+2025-03-06 11:44:37.181 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 5 with length 0 and flags "END_STREAM".
+2025-03-06 11:44:37.259 +05:30 [VRB] Connection id "0HNASEOLU71T2" received "HEADERS" frame for stream ID 7 with length 74 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-03-06 11:44:37.263 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - null null
+2025-03-06 11:44:37.265 +05:30 [VRB] All hosts are allowed.
+2025-03-06 11:44:37.266 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-03-06 11:44:37.267 +05:30 [DBG] Request did not match any endpoints
+2025-03-06 11:44:37.273 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "HEADERS" frame for stream ID 7 with length 35 and flags "END_HEADERS".
+2025-03-06 11:44:37.273 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.7766ms
+2025-03-06 11:44:37.275 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 7 with length 4076 and flags "END_STREAM".
+2025-03-06 11:44:55.755 +05:30 [VRB] Connection id "0HNASEOLU71T2" received "HEADERS" frame for stream ID 9 with length 25 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-03-06 11:44:55.758 +05:30 [VRB] Connection id "0HNASEOLU71T2" received "PING" frame for stream ID 0 with length 8 and flags "NONE".
+2025-03-06 11:44:55.758 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7112/hi - null null
+2025-03-06 11:44:55.760 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "PING" frame for stream ID 0 with length 8 and flags "ACK".
+2025-03-06 11:44:55.762 +05:30 [VRB] All hosts are allowed.
+2025-03-06 11:44:55.768 +05:30 [DBG] 1 candidate(s) found for the request path '/hi'
+2025-03-06 11:44:55.772 +05:30 [DBG] Endpoint 'WebAPI.Controllers.ExampleController.Welcome (WebAPI)' with route pattern 'hi' is valid for the request path '/hi'
+2025-03-06 11:44:55.774 +05:30 [DBG] Request matched endpoint 'WebAPI.Controllers.ExampleController.Welcome (WebAPI)'
+2025-03-06 11:44:55.775 +05:30 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-03-06 11:44:55.777 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-06 11:44:55.778 +05:30 [DBG] Request path/hi
+2025-03-06 11:44:55.781 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-06 11:44:55.783 +05:30 [INF] Executing endpoint 'WebAPI.Controllers.ExampleController.Welcome (WebAPI)'
+2025-03-06 11:44:55.795 +05:30 [INF] Route matched with {action = "Welcome", controller = "Example"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Welcome() on controller WebAPI.Controllers.ExampleController (WebAPI).
+2025-03-06 11:44:55.798 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-06 11:44:55.800 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-06 11:44:55.801 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-06 11:44:55.803 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-06 11:44:55.804 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-06 11:44:55.806 +05:30 [DBG] Executing controller factory for controller WebAPI.Controllers.ExampleController (WebAPI)
+2025-03-06 11:44:55.807 +05:30 [DBG] Executed controller factory for controller WebAPI.Controllers.ExampleController (WebAPI)
+2025-03-06 11:44:55.808 +05:30 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-03-06 11:44:55.810 +05:30 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-03-06 11:44:55.814 +05:30 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-03-06 11:44:55.815 +05:30 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-03-06 11:44:55.819 +05:30 [INF] Executing action method WebAPI.Controllers.ExampleController.Welcome (WebAPI) - Validation state: "Valid"
+2025-03-06 11:44:55.820 +05:30 [INF] This is a verbose message.hiiiiiiiiiiiiiiiiiii
+2025-03-06 11:44:55.824 +05:30 [INF] Executed action method WebAPI.Controllers.ExampleController.Welcome (WebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.7739ms.
+2025-03-06 11:44:55.825 +05:30 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-03-06 11:44:55.828 +05:30 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-03-06 11:44:55.829 +05:30 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-03-06 11:44:55.830 +05:30 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-03-06 11:44:55.832 +05:30 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-03-06 11:44:55.833 +05:30 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-03-06 11:44:55.835 +05:30 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2025-03-06 11:44:55.837 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-06 11:44:55.840 +05:30 [DBG] No information found on request to perform content negotiation.
+2025-03-06 11:44:55.840 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-03-06 11:44:55.842 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-03-06 11:44:55.845 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-06 11:44:55.846 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-06 11:44:55.852 +05:30 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2025-03-06 11:44:55.852 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "HEADERS" frame for stream ID 9 with length 66 and flags "END_HEADERS".
+2025-03-06 11:44:55.854 +05:30 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-03-06 11:44:55.855 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 9 with length 32 and flags "NONE".
+2025-03-06 11:44:55.858 +05:30 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-03-06 11:44:55.863 +05:30 [INF] Executed action WebAPI.Controllers.ExampleController.Welcome (WebAPI) in 55.4965ms
+2025-03-06 11:44:55.864 +05:30 [INF] Executed endpoint 'WebAPI.Controllers.ExampleController.Welcome (WebAPI)'
+2025-03-06 11:44:55.865 +05:30 [VRB] Connection id "0HNASEOLU71T2" sending "DATA" frame for stream ID 9 with length 0 and flags "END_STREAM".
+2025-03-06 11:44:55.865 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7112/hi - 200 null application/json; charset=utf-8 107.1108ms
+2025-03-06 11:44:55.871 +05:30 [VRB] Connection id "0HNASEOLU71T2" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.

@@ -1,0 +1,15 @@
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\bin\Debug\net8.0\Dependy.exe
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\bin\Debug\net8.0\Dependy.deps.json
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\bin\Debug\net8.0\Dependy.runtimeconfig.json
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\bin\Debug\net8.0\Dependy.dll
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\bin\Debug\net8.0\Dependy.pdb
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\obj\Debug\net8.0\Dependy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\obj\Debug\net8.0\Dependy.AssemblyInfoInputs.cache
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\obj\Debug\net8.0\Dependy.AssemblyInfo.cs
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\obj\Debug\net8.0\Dependy.csproj.CoreCompileInputs.cache
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\obj\Debug\net8.0\Dependy.sourcelink.json
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\obj\Debug\net8.0\Dependy.dll
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\obj\Debug\net8.0\refint\Dependy.dll
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\obj\Debug\net8.0\Dependy.pdb
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\obj\Debug\net8.0\Dependy.genruntimeconfig.cache
+C:\Users\navya\source\repos\Dependency injection\Dependy\Dependy\obj\Debug\net8.0\ref\Dependy.dll
